@@ -1,23 +1,23 @@
 [
 	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
+		"dates": "June 2023 · Present",
+		"role": "Tracking & Analytics Specialist",
+		"company": "DPG Media",
+		"description": "Implementing and maintaining tracking solutions for all DPG Media brands, including the news sites, magazines, TV and more.",
+		"logo": "/assets/images/experiences/dpg-media.ico"
 	},
 	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
+		"dates": "January 2023 · October 2024",
+		"role": "Analytics Consultant",
+		"company": "addData",
+		"description": "Consulting for both small and large companies, providing digital analytics solutions, data visualization, and technical support. Pioneered a low cost Snowflake reporting solution, and was the first worldwide to implement Piwik PRO serverside via GTM.",
+		"logo": "/assets/images/experiences/adddata.ico"
 	},
 	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
+		"dates": "February 2022 · December 2023 ",
+		"role": "Analytics Specialist",
+		"company": "Fightclub",
+		"description": "Started as an intern, involved in analytics & dashboarding projects, supporting the team in data analysis and visualization.",
+		"logo": "/assets/images/experiences/fightclub.ico"
 	}
 ]
