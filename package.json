@@ -11,16 +11,19 @@
 		"check": "biome check --apply-unsafe ."
 	},
 	"devDependencies": {
-		"@astrojs/check": "^0.9.4",
-		"@astrojs/tailwind": "^5.1.5",
+		"@astrojs/check": "^0.9.6",
+		"@astrojs/tailwind": "^6.0.2",
 		"@biomejs/biome": "1.7.3",
 		"@tailwindcss/typography": "^0.5.13",
-		"astro": "^5.1.9",
+		"astro": "^5.16.15",
 		"tailwindcss": "^3.4.3",
 		"typescript": "^5.4.5"
 	},
-	"packageManager": "pnpm@9.12.2",
+	"packageManager": "pnpm@10.28.1",
 	"dependencies": {
-		"@astrojs/sitemap": "^3.2.1"
+		"@astrojs/sitemap": "^3.7.0",
+		"@walkeros/collector": "1.0.1-next-1769158278557",
+		"@walkeros/web-destination-gtag": "1.0.1-next-1769158278557",
+		"@walkeros/web-source-browser": "1.0.1-next-1769158278557"
 	}
 }
