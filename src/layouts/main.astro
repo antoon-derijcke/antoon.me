@@ -14,6 +14,21 @@ const { title, description } = Astro.props;
     <link rel="canonical" href={new URL(Astro.url.pathname.replace(/\/?$/, '/'), Astro.site).href} />
     <title>{title}</title>
 
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Antoon Derijcke",
+        "url": "https://www.antoon.me",
+        "sameAs": [
+          "https://www.linkedin.com/in/antoonderijcke/",
+          "https://github.com/antoon-derijcke",
+          "https://www.instagram.com/schuurborstel",
+          "https://www.dansendeberen.be/author/antoon-derijcke/"
+        ]
+      }
+    </script>
+
     <!-- Used to add dark mode right away, adding here prevents any flicker -->
     <script is:inline>
     document.documentElement.classList.add('dark')
