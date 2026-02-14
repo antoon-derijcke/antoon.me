@@ -8,5 +8,7 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
     site: 'https://www.antoon.me',
     trailingSlash: 'always',
-    integrations: [tailwind(), sitemap()],
+    integrations: [tailwind(), sitemap({
+      entryLimit: 10000,
+    })],
 });
