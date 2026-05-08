@@ -1,13 +1,35 @@
-# Aria Template
+# Antoon Derijcke - Portfolio & Blog
 
-This is a personal blog, portfolio, or blog template created for [Astro](https://astro.build).
+This is the personal portfolio and blog of Antoon Derijcke, a Tracking & Analytics Specialist.
 
-Astro port of [aria](https://github.com/static-templates/aria).
+## Architecture
 
-![Aria Template Cover Photo](https://github.com/ccbikai/astro-aria/blob/main/public/assets/images/cover.png?raw=true)
+This project is built using:
+- [Astro](https://astro.build) for static site generation.
+- [Tailwind CSS](https://tailwindcss.com) for styling.
+- [Biome](https://biomejs.dev) for code formatting and linting.
 
-You can install this theme with the [Astro](https://astro.build) command like so:
+## Current Status
 
-```js
-npm create astro@latest -- --template ccbikai/astro-aria
+- **Home Page**: Live
+- **About Me**: Live
+- **Posts**: Work in Progress (WiP)
+- **Projects**: Work in Progress (WiP)
+
+## Deployment
+
+Deployment is handled automatically via Cloudflare Pages integration. Any changes pushed to the main branch will trigger a deployment.
+
+## Local Development
+
+To run the project locally, install dependencies using `pnpm`:
+
+```bash
+pnpm install
+```
+
+Start the development server:
+
+```bash
+pnpm run dev
 ```

@@ -1,7 +1,7 @@
 // Add your javascript here
 
 window.darkMode = true;
-localStorage.setItem('dark_mode', true)
+localStorage.setItem("dark_mode", true);
 
 const stickyClasses = ["fixed", "h-14"];
 const unstickyClasses = ["absolute", "h-20"];
