@@ -1,5 +1,6 @@
 {
-	"name": "dark-disk",
+	"name": "antoon-portfolio",
+	"description": "Antoon Derijcke's personal portfolio and blog.",
 	"type": "module",
 	"version": "0.0.1",
 	"scripts": {
