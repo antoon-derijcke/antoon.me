@@ -15,16 +15,13 @@ struct SiteFooter: HTML {
             Text {
                 "© \(Calendar.current.component(.year, from: Date())) Antoon Derijcke · "
                 Link("LinkedIn", target: ExternalLink.linkedIn)
-                    .target(.blank)
-                    .relationship(.noOpener, .noReferrer)
+                    .opensExternally()
                 " · "
                 Link("GitHub", target: ExternalLink.gitHub)
-                    .target(.blank)
-                    .relationship(.noOpener, .noReferrer)
+                    .opensExternally()
                 " · "
                 Link("Instagram", target: ExternalLink.instagram)
-                    .target(.blank)
-                    .relationship(.noOpener, .noReferrer)
+                    .opensExternally()
             }
             .foregroundStyle(.secondary)
             .font(.small)
