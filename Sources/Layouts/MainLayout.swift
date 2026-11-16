@@ -12,20 +12,22 @@ struct MainLayout: Layout {
     var body: some Document {
         PlainDocument {
             Head {
-                Script(code: """
-                {
-                  "@context": "https://schema.org",
-                  "@type": "Person",
-                  "name": "Antoon Derijcke",
-                  "url": "\(ExternalLink.website)",
-                  "sameAs": [
-                    "\(ExternalLink.linkedIn)",
-                    "\(ExternalLink.gitHub)",
-                    "\(ExternalLink.instagram)",
-                    "\(ExternalLink.dansendeBeren)"
-                  ]
-                }
-                """)
+                Script(
+                    code: """
+                        {
+                          "@context": "https://schema.org",
+                          "@type": "Person",
+                          "name": "Antoon Derijcke",
+                          "url": "\(ExternalLink.website)",
+                          "sameAs": [
+                            "\(ExternalLink.linkedIn)",
+                            "\(ExternalLink.gitHub)",
+                            "\(ExternalLink.instagram)",
+                            "\(ExternalLink.dansendeBeren)"
+                          ]
+                        }
+                        """
+                )
                 .type(value: "application/ld+json")
             }
 
